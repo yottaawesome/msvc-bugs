@@ -7,3 +7,5 @@ This project covers a particular MSVC bug that has been observed since VS2019 an
 As of 22/02/2023, this issue has been [reported](https://developercommunity.visualstudio.com/t/std::source_location-can-cause-ICEs-when/10287637) to Microsoft for further evaluation.
 
 As of 23/02/2023, Microsoft is now reporting this issue is fixed internally and awaiting release.
+
+As of 20/04/2023, I can not longer reproduce this bug in Visual Studio (tested in 17.5.4).
