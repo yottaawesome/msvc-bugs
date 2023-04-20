@@ -8,4 +8,4 @@ As of 22/02/2023, this issue has been [reported](https://developercommunity.visu
 
 As of 23/02/2023, Microsoft is now reporting this issue is fixed internally and awaiting release.
 
-As of 20/04/2023, I can not longer reproduce this bug in Visual Studio (tested in 17.5.4).
+As of 20/04/2023, I can no longer reproduce this bug in Visual Studio (tested in 17.5.4), even though the bug is still marked as "Fixed - Pending Release".
