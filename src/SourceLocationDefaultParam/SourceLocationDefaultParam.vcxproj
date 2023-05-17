@@ -130,7 +130,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="testexception.cpp" />
     <ClCompile Include="testexception.ixx" />
   </ItemGroup>
   <ItemGroup>

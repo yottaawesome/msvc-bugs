@@ -4,4 +4,4 @@
 
 There's some strange interaction between module header units, std::format, and rapidJSON that causes an ICE.
 
-This issue was [reported](https://developercommunity.visualstudio.com/t/Interaction-between-module-header-unit/10290197) today (24/02/2023) and shortly later reported as fixed by Microsoft.
+This issue was [reported](https://developercommunity.visualstudio.com/t/Interaction-between-module-header-unit/10290197) today (24/02/2023) and shortly later reported as fixed by Microsoft. The fix is apparently going to be a part of 17.7.0.

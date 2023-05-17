@@ -15,6 +15,6 @@ export namespace TestExceptions
 			Exception(
 				const std::string& msg,
 				const std::source_location& location = std::source_location::current()
-			);
+			) {}
 	};
 }
