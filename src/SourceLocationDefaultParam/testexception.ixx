@@ -1,7 +1,7 @@
 export module testexception;
 import <exception>;
-import <string>;
 import <source_location>;
+//import std;
 
 export namespace TestExceptions
 {
@@ -10,7 +10,7 @@ export namespace TestExceptions
 		public:
 			virtual ~Exception() = default;
 			Exception(
-				const std::string& msg,
+				const char* msg,
 				const std::source_location& location = std::source_location::current()
 			) {}
 	};
