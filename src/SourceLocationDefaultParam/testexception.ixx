@@ -1,10 +1,7 @@
-module;
-
-#include <exception>
-#include <string>
-#include <source_location>
-
 export module testexception;
+import <exception>;
+import <string>;
+import <source_location>;
 
 export namespace TestExceptions
 {

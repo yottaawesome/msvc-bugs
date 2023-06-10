@@ -1,5 +1,5 @@
-// #include <source_location> // uncomment to fix ICE
-
+#include <source_location> // uncomment to fix ICE
+//import <source_location>; // does not fix ICE
 import testexception;
 
 int main()
