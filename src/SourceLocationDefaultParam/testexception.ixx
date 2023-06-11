@@ -1,11 +1,10 @@
 export module testexception;
-import <exception>;
 import <source_location>;
 //import std;
 
 export namespace TestExceptions
 {
-	struct Exception : public std::exception
+	struct Exception
 	{
 		Exception(
 			const char* msg,
