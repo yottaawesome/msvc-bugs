@@ -14,6 +14,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ModuleHeaderUnit", "rapidjs
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "rapidjson-ice\TestApp\TestApp.vcxproj", "{0DA5EC87-2FC1-480F-9BB9-74815D082955}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bad-return", "bad-return\bad-return.vcxproj", "{D1323641-F97A-4F38-B5A5-A965C5BED286}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -46,6 +48,14 @@ Global
 		{0DA5EC87-2FC1-480F-9BB9-74815D082955}.Release|x64.Build.0 = Release|x64
 		{0DA5EC87-2FC1-480F-9BB9-74815D082955}.Release|x86.ActiveCfg = Release|Win32
 		{0DA5EC87-2FC1-480F-9BB9-74815D082955}.Release|x86.Build.0 = Release|Win32
+		{D1323641-F97A-4F38-B5A5-A965C5BED286}.Debug|x64.ActiveCfg = Debug|x64
+		{D1323641-F97A-4F38-B5A5-A965C5BED286}.Debug|x64.Build.0 = Debug|x64
+		{D1323641-F97A-4F38-B5A5-A965C5BED286}.Debug|x86.ActiveCfg = Debug|Win32
+		{D1323641-F97A-4F38-B5A5-A965C5BED286}.Debug|x86.Build.0 = Debug|Win32
+		{D1323641-F97A-4F38-B5A5-A965C5BED286}.Release|x64.ActiveCfg = Release|x64
+		{D1323641-F97A-4F38-B5A5-A965C5BED286}.Release|x64.Build.0 = Release|x64
+		{D1323641-F97A-4F38-B5A5-A965C5BED286}.Release|x86.ActiveCfg = Release|Win32
+		{D1323641-F97A-4F38-B5A5-A965C5BED286}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
