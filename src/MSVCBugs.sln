@@ -16,6 +16,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "rapidjson-ice\Te
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bad-return", "bad-return\bad-return.vcxproj", "{D1323641-F97A-4F38-B5A5-A965C5BED286}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "module-debug-break", "module-debug-break\module-debug-break.vcxproj", "{C3878FB9-5032-4C5B-B5C0-0BFE228F4F47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -56,6 +58,14 @@ Global
 		{D1323641-F97A-4F38-B5A5-A965C5BED286}.Release|x64.Build.0 = Release|x64
 		{D1323641-F97A-4F38-B5A5-A965C5BED286}.Release|x86.ActiveCfg = Release|Win32
 		{D1323641-F97A-4F38-B5A5-A965C5BED286}.Release|x86.Build.0 = Release|Win32
+		{C3878FB9-5032-4C5B-B5C0-0BFE228F4F47}.Debug|x64.ActiveCfg = Debug|x64
+		{C3878FB9-5032-4C5B-B5C0-0BFE228F4F47}.Debug|x64.Build.0 = Debug|x64
+		{C3878FB9-5032-4C5B-B5C0-0BFE228F4F47}.Debug|x86.ActiveCfg = Debug|Win32
+		{C3878FB9-5032-4C5B-B5C0-0BFE228F4F47}.Debug|x86.Build.0 = Debug|Win32
+		{C3878FB9-5032-4C5B-B5C0-0BFE228F4F47}.Release|x64.ActiveCfg = Release|x64
+		{C3878FB9-5032-4C5B-B5C0-0BFE228F4F47}.Release|x64.Build.0 = Release|x64
+		{C3878FB9-5032-4C5B-B5C0-0BFE228F4F47}.Release|x86.ActiveCfg = Release|Win32
+		{C3878FB9-5032-4C5B-B5C0-0BFE228F4F47}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
