@@ -132,7 +132,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="bad-return.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="somemodule.ixx" />
   </ItemGroup>
   <ItemGroup>

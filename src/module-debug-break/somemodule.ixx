@@ -10,12 +10,7 @@ export namespace SomeNamespace
 	{
 		std::string DoSomething()
 		{
-			return "blahblahblah";
+			return "blahblahblah"; // place breakpoint here
 		}
 	};
-
-	std::string DoSomething2()
-	{
-		return "blahblahblah";
-	}
 }

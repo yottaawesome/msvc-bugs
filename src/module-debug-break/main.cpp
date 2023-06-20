@@ -8,7 +8,6 @@ int main()
     // but instead we get garbage back, and the program crashes 
     // when the scope ends in Debug builds.
     std::string s = obj.DoSomething();
-    std::string s2 = SomeNamespace::DoSomething2();
 
     return 0;
 }
