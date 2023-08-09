@@ -12,3 +12,4 @@ As of 20/04/2023, I can no longer reproduce this bug in Visual Studio (tested in
 
 As of 16/05/2023, the issue has reappeared as part of 17.6.0. The fix is apparently going to be a part of 17.7.0.
 
+As of 09/08/2023, this bug appears to have finally been resolved. It only took the MSVC team six months and two whole major versions to ship a fix. If it took me months to ship bugs to my company's clients, I'd have been fired several times over.
