@@ -7,3 +7,5 @@ In-class member function definitions produce unexpected results when returning v
 As of 19/06/2023, this issue has been [reported to Microsoft](https://developercommunity.visualstudio.com/t/Bad-return-value-when-module-based-in-cl/10395174) and I'm waiting on a response.
 
 As of 20/06/2023, Microsoft is reporting the issue has been fixed for the next major version (17.7.0) of VS 2022.
+
+As of 09/08/2023, this bug appears to have been resolved. The MSVC team managed to ship a fix in a timely manner, which is sometimes the most you can expect from them.
