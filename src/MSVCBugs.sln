@@ -22,6 +22,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "winrt-module", "winrt-modul
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ice-builtin", "ice-builtin\ice-builtin.vcxproj", "{D4018DD2-55C0-4F55-984E-0D09EEB98CCD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "consteval-bug", "consteval-bug\consteval-bug.vcxproj", "{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -86,6 +88,14 @@ Global
 		{D4018DD2-55C0-4F55-984E-0D09EEB98CCD}.Release|x64.Build.0 = Release|x64
 		{D4018DD2-55C0-4F55-984E-0D09EEB98CCD}.Release|x86.ActiveCfg = Release|Win32
 		{D4018DD2-55C0-4F55-984E-0D09EEB98CCD}.Release|x86.Build.0 = Release|Win32
+		{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}.Debug|x64.ActiveCfg = Debug|x64
+		{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}.Debug|x64.Build.0 = Debug|x64
+		{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}.Debug|x86.ActiveCfg = Debug|Win32
+		{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}.Debug|x86.Build.0 = Debug|Win32
+		{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}.Release|x64.ActiveCfg = Release|x64
+		{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}.Release|x64.Build.0 = Release|x64
+		{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}.Release|x86.ActiveCfg = Release|Win32
+		{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
