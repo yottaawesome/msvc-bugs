@@ -12,4 +12,4 @@ As of 02/11/2023, after more critical comments came in from different people, Mi
 
 The entire episode was frankly bizarre and a prime demonstration that Microsoft often lacks initiative in fixing bugs; it was inevitable as more customers adopted C++20 modules, more of them would run into this broken debugging behaviour, but instead of doing the competent and proactive thing and resolving the issue before more customers noticed it, Microsoft kept its finger in its butt until more customers slammed them.
 
-The whole episode would be funny if I handn't been the one dealing with this broken debugging behaviour for the last six months.
+The whole episode would be funny if I hadn't been the one dealing with this broken debugging behaviour for the last six months.
