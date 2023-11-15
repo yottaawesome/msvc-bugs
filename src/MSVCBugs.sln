@@ -24,6 +24,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ice-builtin", "ice-builtin\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "consteval-bug", "consteval-bug\consteval-bug.vcxproj", "{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spdlog-ice", "spdlog-ice\spdlog-ice.vcxproj", "{C53E09EB-F3CA-4ED2-A1A0-8768DA929675}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -96,6 +98,14 @@ Global
 		{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}.Release|x64.Build.0 = Release|x64
 		{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}.Release|x86.ActiveCfg = Release|Win32
 		{A5156ED9-0AAA-4096-9CDC-FD87D15EE276}.Release|x86.Build.0 = Release|Win32
+		{C53E09EB-F3CA-4ED2-A1A0-8768DA929675}.Debug|x64.ActiveCfg = Debug|x64
+		{C53E09EB-F3CA-4ED2-A1A0-8768DA929675}.Debug|x64.Build.0 = Debug|x64
+		{C53E09EB-F3CA-4ED2-A1A0-8768DA929675}.Debug|x86.ActiveCfg = Debug|Win32
+		{C53E09EB-F3CA-4ED2-A1A0-8768DA929675}.Debug|x86.Build.0 = Debug|Win32
+		{C53E09EB-F3CA-4ED2-A1A0-8768DA929675}.Release|x64.ActiveCfg = Release|x64
+		{C53E09EB-F3CA-4ED2-A1A0-8768DA929675}.Release|x64.Build.0 = Release|x64
+		{C53E09EB-F3CA-4ED2-A1A0-8768DA929675}.Release|x86.ActiveCfg = Release|Win32
+		{C53E09EB-F3CA-4ED2-A1A0-8768DA929675}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
