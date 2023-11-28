@@ -28,7 +28,7 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "spdlog-ice", "spdlog-ice\sp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "protobuf-module-header-ice", "protobuf-module-header-ice\protobuf-module-header-ice.vcxproj", "{81D73EE4-4C37-449A-B6E2-4A6D45A36573}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "concept-ice", "concept-ice\concept-ice.vcxproj", "{E0DEE748-A2DD-44E4-A34D-C8353C17E06B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "template-ice", "template-ice\template-ice.vcxproj", "{E0DEE748-A2DD-44E4-A34D-C8353C17E06B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
