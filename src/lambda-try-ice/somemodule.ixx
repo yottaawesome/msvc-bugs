@@ -8,7 +8,7 @@ export namespace test_namespace
 	{
 		return []
 		{
-			// Commenting out the try-catch (leaving the invoke and returns) also resolves the ICE.
+			// Commenting out the try-catch (leaving returns) also resolves the ICE.
 			try
 			{
 				return true;
