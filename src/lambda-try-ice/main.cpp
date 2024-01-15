@@ -4,4 +4,3 @@ import somemodule;
 int main()
 {
 }
-
