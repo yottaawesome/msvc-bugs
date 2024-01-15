@@ -19,11 +19,4 @@ export namespace test_namespace
 			}
 		};
 	}
-
-	auto return_safe_lambda()
-	{
-		// No ICE occurs if we don't return anything from this function,
-		// i.e. we just call make_safe().
-		return make_safe();
-	}
 }
