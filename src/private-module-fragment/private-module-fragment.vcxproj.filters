@@ -27,5 +27,11 @@
     <ClCompile Include="module_a-partition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="module_c.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="module_c-partition.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

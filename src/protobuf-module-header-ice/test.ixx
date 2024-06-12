@@ -7,5 +7,5 @@ export module test;
 export namespace A
 {
 	// breaks on this
-	//using google::protobuf::AllocatedRepeatedPtrFieldBackInserter;
+	using google::protobuf::AllocatedRepeatedPtrFieldBackInserter;
 }

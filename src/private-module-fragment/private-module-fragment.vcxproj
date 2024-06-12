@@ -132,6 +132,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="module_c-partition.cpp">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCppModuleInternalPartition</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCppModuleInternalPartition</CompileAs>
+    </ClCompile>
+    <ClCompile Include="module_c.ixx" />
     <ClCompile Include="module_a-partition.cpp">
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsCppModuleInternalPartition</CompileAs>
       <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsCppModuleInternalPartition</CompileAs>
