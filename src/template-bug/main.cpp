@@ -66,11 +66,7 @@ namespace Util
 namespace Test
 {
     template<Util::WideFixedString VClassName>
-    struct ControlTraits
-    {
-        virtual ~ControlTraits() = default;
-        static constexpr std::wstring_view Class = VClassName;
-    };
+    struct ControlTraits { };
 
     template<Util::WideFixedString VText, unsigned long VId, unsigned long VX>
     struct TestButtonTraits : public ControlTraits<L"Button"> { };
