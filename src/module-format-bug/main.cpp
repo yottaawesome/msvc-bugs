@@ -3,7 +3,7 @@ import formatting;
 
 // This compiles fine when uncommented.
 //template<size_t N>
-//struct std::formatter<wchar_t[N], char> : std::formatter<std::string>
+//struct std::formatter<wchar_t[N]> : std::formatter<std::string>
 //{
 //    auto format(const wchar_t(id)[N], std::format_context& ctx) const
 //    {
