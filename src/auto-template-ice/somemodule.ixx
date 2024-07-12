@@ -3,7 +3,7 @@ import std;
 
 export
 {
-    struct SettableDefaults
+    struct Defaults
     {
         // ICE does not occur if template is moved to the struct level.
         template<auto VGet>
@@ -13,7 +13,7 @@ export
         };
     };
 
-    template<auto VGet, auto VSet, auto VNoExceptGet = SettableDefaults::VNoExceptGet<VGet>>
+    template<auto VGet, auto VSet, auto VNoExceptGet = Defaults::VNoExceptGet<VGet>>
     struct Settable
     {
         const auto& operator=(auto&&...set) const
@@ -22,7 +22,7 @@ export
         }
     };
 
-    constexpr Settable <
+    constexpr Settable<
         []() -> std::string { return "a"; },
         [](std::string_view i) { }
     > TestSettable;
