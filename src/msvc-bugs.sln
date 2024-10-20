@@ -48,6 +48,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "optional-ice", "optional-ic
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "auto-template-ice", "auto-template-ice\auto-template-ice.vcxproj", "{93B7ADB7-6B22-4016-A2B5-81F6AD09F19D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "invalid-constexpr", "invalid-constexpr\invalid-constexpr.vcxproj", "{520A2CF7-5285-466A-8286-A79F2480E1EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -216,6 +218,14 @@ Global
 		{93B7ADB7-6B22-4016-A2B5-81F6AD09F19D}.Release|x64.Build.0 = Release|x64
 		{93B7ADB7-6B22-4016-A2B5-81F6AD09F19D}.Release|x86.ActiveCfg = Release|Win32
 		{93B7ADB7-6B22-4016-A2B5-81F6AD09F19D}.Release|x86.Build.0 = Release|Win32
+		{520A2CF7-5285-466A-8286-A79F2480E1EF}.Debug|x64.ActiveCfg = Debug|x64
+		{520A2CF7-5285-466A-8286-A79F2480E1EF}.Debug|x64.Build.0 = Debug|x64
+		{520A2CF7-5285-466A-8286-A79F2480E1EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{520A2CF7-5285-466A-8286-A79F2480E1EF}.Debug|x86.Build.0 = Debug|Win32
+		{520A2CF7-5285-466A-8286-A79F2480E1EF}.Release|x64.ActiveCfg = Release|x64
+		{520A2CF7-5285-466A-8286-A79F2480E1EF}.Release|x64.Build.0 = Release|x64
+		{520A2CF7-5285-466A-8286-A79F2480E1EF}.Release|x86.ActiveCfg = Release|Win32
+		{520A2CF7-5285-466A-8286-A79F2480E1EF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
