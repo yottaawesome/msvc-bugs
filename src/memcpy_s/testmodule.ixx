@@ -1,5 +1,6 @@
 module;
-
+#include <strsafe.h>
+#include <memory.h>
 #include <winrt/Windows.Foundation.h>
 #include <winrt/Windows.Foundation.Collections.h>
 #include <winrt/windows.data.json.h>
