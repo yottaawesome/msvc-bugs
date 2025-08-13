@@ -58,6 +58,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "constexpr-crash", "constexp
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "constexpr-variant-ice", "constexpr-variant-ice\constexpr-variant-ice.vcxproj", "{204663AD-B788-47F6-8B5D-C5364743E8AD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deducing-this-ice", "deducing-this-ice\deducing-this-ice.vcxproj", "{76E24480-EF8C-409D-AF9C-E26018364C6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -266,6 +268,14 @@ Global
 		{204663AD-B788-47F6-8B5D-C5364743E8AD}.Release|x64.Build.0 = Release|x64
 		{204663AD-B788-47F6-8B5D-C5364743E8AD}.Release|x86.ActiveCfg = Release|Win32
 		{204663AD-B788-47F6-8B5D-C5364743E8AD}.Release|x86.Build.0 = Release|Win32
+		{76E24480-EF8C-409D-AF9C-E26018364C6D}.Debug|x64.ActiveCfg = Debug|x64
+		{76E24480-EF8C-409D-AF9C-E26018364C6D}.Debug|x64.Build.0 = Debug|x64
+		{76E24480-EF8C-409D-AF9C-E26018364C6D}.Debug|x86.ActiveCfg = Debug|Win32
+		{76E24480-EF8C-409D-AF9C-E26018364C6D}.Debug|x86.Build.0 = Debug|Win32
+		{76E24480-EF8C-409D-AF9C-E26018364C6D}.Release|x64.ActiveCfg = Release|x64
+		{76E24480-EF8C-409D-AF9C-E26018364C6D}.Release|x64.Build.0 = Release|x64
+		{76E24480-EF8C-409D-AF9C-E26018364C6D}.Release|x86.ActiveCfg = Release|Win32
+		{76E24480-EF8C-409D-AF9C-E26018364C6D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
