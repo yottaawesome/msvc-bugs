@@ -2,7 +2,7 @@ export module main;
 export import std;
 export import :libs;
 
-int main()
+export extern "C" int main()
 {
     std::cout << "Hello World!\n";
 }
