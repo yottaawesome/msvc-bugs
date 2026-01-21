@@ -2,8 +2,9 @@ export module main;
 export import std;
 export import :libs;
 
-export extern "C" int main()
+export int main()
 {
-    std::cout << "Hello World!\n";
+	// ICE goes away if this line is removed
+	std::println("Hello");
+	return 0;
 }
-
