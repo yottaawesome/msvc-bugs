@@ -1,5 +1,6 @@
 import std;
 
+// Bug ticket https://developercommunity.visualstudio.com/t/C2666-false-ambiguity-with-explicit-obje/11058201
 namespace strings
 {
 	template<typename T>
