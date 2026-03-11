@@ -68,6 +68,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "selectany-bug", "selectany-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vulkan-ice", "vulkan-ice\vulkan-ice.vcxproj", "{65F53846-D77B-46A8-9F7C-06431A1AA259}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ambiguous-operator-error", "ambiguous-operator-error\ambiguous-operator-error.vcxproj", "{C5697F06-9B7A-44EE-AF04-F0E188EEB1F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -308,6 +310,14 @@ Global
 		{65F53846-D77B-46A8-9F7C-06431A1AA259}.Release|x64.Build.0 = Release|x64
 		{65F53846-D77B-46A8-9F7C-06431A1AA259}.Release|x86.ActiveCfg = Release|Win32
 		{65F53846-D77B-46A8-9F7C-06431A1AA259}.Release|x86.Build.0 = Release|Win32
+		{C5697F06-9B7A-44EE-AF04-F0E188EEB1F0}.Debug|x64.ActiveCfg = Debug|x64
+		{C5697F06-9B7A-44EE-AF04-F0E188EEB1F0}.Debug|x64.Build.0 = Debug|x64
+		{C5697F06-9B7A-44EE-AF04-F0E188EEB1F0}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5697F06-9B7A-44EE-AF04-F0E188EEB1F0}.Debug|x86.Build.0 = Debug|Win32
+		{C5697F06-9B7A-44EE-AF04-F0E188EEB1F0}.Release|x64.ActiveCfg = Release|x64
+		{C5697F06-9B7A-44EE-AF04-F0E188EEB1F0}.Release|x64.Build.0 = Release|x64
+		{C5697F06-9B7A-44EE-AF04-F0E188EEB1F0}.Release|x86.ActiveCfg = Release|Win32
+		{C5697F06-9B7A-44EE-AF04-F0E188EEB1F0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
